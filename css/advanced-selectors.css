@@ -1,28 +1,28 @@
-// all elements
+/* all elements */
 div * { ... }
 
-// direct child
+/* direct child */
 div > p { ... }
 
-// general sibling
+/* general sibling */
 div ~ p { ... }
 
-// adjacent sibling
+/* adjacent sibling */
 div + p { ... }
 
-// attribute present
+/* attribute present */
 a[target] {...}
 div[class] { ... }
 
-// attribute equals
+/* attribute equals */
 [data-attibute="true"]
 
-// attribute contains
+/* attribute contains */
 
-// attribute begins with
+/* attribute begins with */
 
-// attribute end with
+/* attribute end with */
 
-// attribute spaced
+/* attribute spaced */
 
-// attribute hyphenated
+/* attribute hyphenated */
