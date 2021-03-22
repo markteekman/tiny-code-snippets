@@ -1,0 +1,28 @@
+// all elements
+div * { ... }
+
+// direct child
+div > p { ... }
+
+// general sibling
+div ~ p { ... }
+
+// adjacent sibling
+div + p { ... }
+
+// attribute present
+a[target] {...}
+div[class] { ... }
+
+// attribute equals
+[data-attibute="true"]
+
+// attribute contains
+
+// attribute begins with
+
+// attribute end with
+
+// attribute spaced
+
+// attribute hyphenated
