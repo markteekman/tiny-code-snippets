@@ -1,0 +1,11 @@
+/* set the scroll behaviour for the project */
+html {
+  scroll-behavior: smooth;
+}
+
+/* disable for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
