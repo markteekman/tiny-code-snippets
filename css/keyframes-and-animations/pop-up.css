@@ -1,0 +1,15 @@
+.element {
+  /* shorthand */
+  animation: pop-up 1.5s ease-in-out forwards;
+
+  /* longhand */
+  animation-name: pop-up;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pop-up {
+  0% { transform: scale(0.1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}

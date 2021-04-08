@@ -1,0 +1,16 @@
+.element {
+  /* shorthand */
+  animation: rotate 5 0.15s linear;
+
+  /* longhand */
+  animation-name: rotate;
+  animation-duration: 0.15s;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}

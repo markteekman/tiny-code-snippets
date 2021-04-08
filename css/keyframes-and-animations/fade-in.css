@@ -1,0 +1,17 @@
+.element {
+  opacity: 0;
+
+  /* shorthand */
+  animation: fade-in 1s 2s forwards;
+
+  /* longhand */
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-direction: forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
