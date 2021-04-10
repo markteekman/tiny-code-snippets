@@ -1,0 +1,16 @@
+kbd {
+  display: inline-block;
+  margin: 0 0.125rem;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid #616e7c;
+  border-radius: 3px;
+  background-color: #cbd2d9;
+  box-shadow:
+    0 1px 0 rgba(12, 13, 14, 0.2),
+    inset 0 0 0 2px #fff;
+  color: #1f2933;
+  text-shadow: 0 1px 0 #f5f7fa;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
