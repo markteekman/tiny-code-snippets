@@ -1,0 +1,9 @@
+/***
+  - use either when anchoring somewhere on the page using an id as href
+  - or in conjunction with scroll snaping components
+***/
+
+.element {
+  scroll-margin: 20px;
+  scroll-snap-type: x mandatory;
+}
