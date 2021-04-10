@@ -1,0 +1,8 @@
+/***
+ - also works for paragraph content blocks
+ - more column options: https://www.w3schools.com/css/css3_multiple_columns.asp
+ */
+
+ul {
+  columns: 3;
+}
