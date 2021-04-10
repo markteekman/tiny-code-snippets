@@ -1,0 +1,21 @@
+ol {
+  counter-reset: item;
+}
+
+ol ol {
+  margin-top: 12px;
+}
+
+ol li {
+  display: block;
+  margin-bottom: 8px;
+}
+
+ol li::before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}
+
+ol li:last-child {
+  margin-bottom: 0;
+}
