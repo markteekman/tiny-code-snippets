@@ -1,0 +1,11 @@
+/* all elements */
+div * { ... }
+
+/* direct child */
+div > p { ... }
+
+/* general sibling */
+div ~ p { ... }
+
+/* adjacent sibling */
+div + p { ... }
