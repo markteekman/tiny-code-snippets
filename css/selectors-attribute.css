@@ -15,7 +15,9 @@ div[class^="style"] { ... }
 div[class$="nice"] { ... }
 
 /* attribute spaced seperated values */
+/* for example: <a href="#" rel="tag nofollow">...</a> */
 a[rel~="nofollow"] { ... }
 
 /* attribute hyphenated seperated values */
+/* for example: <a href="#" lang="nl-NL">...</a> */
 a[lang|="nl"] { ... }
