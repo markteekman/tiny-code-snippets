@@ -1,15 +1,15 @@
 .element {
   /* shorthand */
-  animation: rotate 5 0.15s linear;
+  animation: spin 5 0.15s linear;
 
   /* longhand */
-  animation-name: rotate;
+  animation-name: spin;
   animation-duration: 0.15s;
-  animation-iteration-count: 5;
   animation-timing-function: linear;
+  animation-iteration-count: 5;
 }
 
-@keyframes rotate {
+@keyframes spin {
   0% { transform: rotate(0deg); }
   50% { transform: rotate(180deg); }
   100% { transform: rotate(360deg); }
