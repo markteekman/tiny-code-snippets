@@ -1,0 +1,19 @@
+ul {
+  padding: 0 0 0 24px;
+}
+
+ul li::marker {
+  content: "➡️";
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+ul ul {
+  padding: 12px 0 0 16px;
+}
