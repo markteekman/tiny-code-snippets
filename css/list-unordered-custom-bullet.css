@@ -1,0 +1,24 @@
+ul {
+  padding: 0 0 0 24px;
+  list-style-type: none;
+}
+
+ul li { margin-bottom: 8px; }
+
+ul li::before {
+  position: relative;
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin-top: 6px;
+  margin-right: 12px;
+  width: 10px;
+  height: 10px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><circle cx='5' cy='5' r='5' style='fill:purple;' /></svg>");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+ul li:last-child { margin-bottom: 0; }
+
+ul ul { padding: 12px 0 0 16px; }
