@@ -1,0 +1,16 @@
+ul {
+  padding: 0 0 0 24px;
+  list-style-image: url("https://placehold.co/15x15/purple/white?text=●");
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+ul ul {
+  padding: 12px 0 0 16px;
+}
