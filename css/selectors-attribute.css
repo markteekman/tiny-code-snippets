@@ -1,0 +1,21 @@
+/* attribute present */
+a[target] { ... }
+div[class] { ... }
+
+/* attribute equals */
+div[class="style-me-up-nice"] { ... }
+
+/* attribute contains */
+div[class*="me-up"] { ... }
+
+/* attribute begins with */
+div[class^="style"] { ... }
+
+/* attribute end with */
+div[class$="nice"] { ... }
+
+/* attribute spaced seperated values */
+a[rel~="nofollow"] { ... }
+
+/* attribute hyphenated seperated values */
+a[lang|="nl"] { ... }
