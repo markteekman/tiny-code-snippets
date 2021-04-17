@@ -1,0 +1,10 @@
+/* textual */
+p::first-letter {...}
+p::first-line {...}
+
+/* generated content */
+div::before {...}
+div::after {...}
+
+/* fragment */
+::selection {...}
