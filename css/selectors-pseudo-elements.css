@@ -1,10 +1,10 @@
 /* textual */
-p::first-letter {...}
-p::first-line {...}
+p::first-letter { ... }
+p::first-line { ... }
 
 /* generated content */
-div::before {...}
-div::after {...}
+div::before { ... }
+div::after { ... }
 
 /* fragment i.e. selection of content */
-::selection {...}
+::selection { ... }

@@ -1,39 +1,39 @@
 /* link */
-a:link {...}
-a:visited {...}
+a:link { ... }
+a:visited { ... }
 
 /* user action */
-a:hover {...}
-a:active {...}
-a:focus {...}
+a:hover { ... }
+a:active { ... }
+a:focus { ... }
 
 /* user interface state */
-input:enabled {...}
-input:disabled {...}
-input:checked {...}
-input:indeterminate {...}
+input:enabled { ... }
+input:disabled { ... }
+input:checked { ... }
+input:indeterminate { ... }
 
 /* structural and position */
-p:first-child {...}
-p:last-child {...}
-p:only-child {...}
+p:first-child { ... }
+p:last-child { ... }
+p:only-child { ... }
 
-img:first-of-type {...}
-img:last-of-type {...}
-img:only-of-type {...}
+img:first-of-type { ... }
+img:last-of-type { ... }
+img:only-of-type { ... }
 
-li:nth-child(an+b) {...}
-li:nth-last-child(an+b) {...}
+li:nth-child(an+b) { ... }
+li:nth-last-child(an+b) { ... }
 
-p:nth-last-of-type(an+b) {...}
-p:nth-of-type(an+b) {...}
+p:nth-last-of-type(an+b) { ... }
+p:nth-of-type(an+b) { ... }
 
 /* target */
-section:target {...}
+section:target { ... }
 
 /* empty */
-div:empty {...}
+div:empty { ... }
 
 /* negation */
-div:not(.this-class)
-:not(div)
+div:not(.this-class) { ... }
+:not(div) { ... }
