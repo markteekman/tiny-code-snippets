@@ -6,5 +6,5 @@ p::first-line {...}
 div::before {...}
 div::after {...}
 
-/* fragment */
+/* fragment i.e. selection of content */
 ::selection {...}
