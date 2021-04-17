@@ -1,0 +1,11 @@
+/***
+  - note: don't use padding directly on the element, otherwise this technique won't work
+***/
+
+.element {
+  display: -webkit-box;
+  overflow: hidden;
+
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
