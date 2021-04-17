@@ -4,6 +4,6 @@
 ***/
 
 .element {
-  scroll-margin: 20px;
+  scroll-margin: 20px; /* can also be padding */
   scroll-snap-type: x mandatory;
 }
