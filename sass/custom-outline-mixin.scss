@@ -1,0 +1,12 @@
+*:focus {
+  @include outline;
+}
+
+@mixin outline {
+  outline: 2px dotted $contrast-900;
+  outline-width: 2px;
+  outline-style: dotted;
+  outline-color: $contrast-900;
+  outline-offset: 0;
+  box-shadow: 0 0 0 2px $neutral-000;
+}
