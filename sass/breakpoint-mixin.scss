@@ -1,0 +1,43 @@
+// example usage
+.element {
+  padding: 1em;
+
+  @include breakpoint(medium) { padding: 2em; }
+  @include breakpoint(large) { padding: 3em; }
+  @include breakpoint(1100) { padding: 4em; }
+}
+
+// breakpoints map
+$breakpoints: (
+  "default"  : 0,
+  "small"		 : 24em,
+  "medium"	 : 48em,
+  "large"		 : 75em,
+  "huge"		 : 87.5em
+) !default;
+
+// breakpoint mixin
+@mixin breakpoint($breakpoint) {
+
+  // if key is in map
+  @if map-has-key($breakpoints, $breakpoint) {
+
+    // set media query
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+  @else if (type_of($breakpoint) == number) {
+
+    // set media query
+    @media (min-width: $breakpoint+"px") {
+      @content;
+    }
+  }
+
+  // if key is not in map or not a valid input, throw error message
+  @else {
+    @error "Not a correct value, use a number or any of the defined values in the breakpoint map.";
+  }
+}
