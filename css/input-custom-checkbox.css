@@ -1,15 +1,15 @@
 /* use with: html/input-custom-checkbox.html */
 
-.custom-checkbox__fieldset {
+fieldset {
   border: 0;
   padding: 0;
 }
 
-.custom-checkbox__legend {
+legend {
   margin-bottom: 8px;
 }
 
-.custom-checkbox__label {
+label {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -18,13 +18,13 @@
   cursor: pointer;
 }
 
-.custom-checkbox__input {
+input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-checkbox__indicator {
+.indicator {
   display: flex;
   align-items: center;
   flex-basis: 15px;
@@ -38,7 +38,7 @@
   padding: 2px;
 }
 
-.custom-checkbox__indicator::after {
+.indicator::after {
   display: none;
   margin-top: -3px;
   width: 4px;
@@ -50,15 +50,15 @@
   transform: rotate(45deg);
 }
 
-.custom-checkbox__input:checked ~ .custom-checkbox__indicator {
+input:checked ~ .indicator {
   border-color: indigo;
   background: purple;
 }
 
-.custom-checkbox__input:checked ~ .custom-checkbox__indicator::after {
+input:checked ~ .indicator::after {
   display: block;
 }
 
-.custom-checkbox__input:disabled ~ .custom-checkbox__indicator {
+input:disabled ~ .indicator {
   opacity: 0.4;
 }
