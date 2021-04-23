@@ -1,0 +1,42 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+section {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+}
+
+.main__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li + li {
+  margin-left: 24px;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+a[aria-current] {
+  color: purple;
+}
+
+a:not([aria-current]):hover {
+  text-decoration: underline;
+}
