@@ -5,6 +5,7 @@ fieldset {
 
 legend {
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 label {
@@ -38,15 +39,15 @@ input {
   display: none;
   width: 7px;
   height: 7px;
-  border: solid purple;
+  border: solid tomato;
   border-width: 0 3px 3px 0;
   border-radius: 60px;
-  background: purple;
+  background: tomato;
   content: "";
 }
 
 input:checked ~ .indicator {
-  border-color: indigo;
+  border-color: darkorange;
 }
 
 input:checked ~ .indicator::after {
@@ -54,5 +55,5 @@ input:checked ~ .indicator::after {
 }
 
 label:focus input ~ .indicator {
-  border-color: indigo;
+  border-color: darkorange;
 }
