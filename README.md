@@ -10,7 +10,7 @@ Some Tiny Codes span over HTML, CSS and JavaScript, for those more visual exampl
 | [Auto Hiding Sticky Navbar](https://codepen.io/markteekman/pen/JjEwrVp) | HTML, CSS, JavaScript |
 | [Input Custom Checkbox](https://codepen.io/markteekman/pen/BapvmBB) | HTML, CSS |
 | [Input Custom Radio Button](https://codepen.io/markteekman/pen/poRqdjR) | HTML, CSS |
-| [Intersection Observers](https://codepen.io/markteekman/pen/oNBMERX) | HTML, CSS |
+| [Intersection Observers](https://codepen.io/markteekman/pen/oNBMERX) | HTML, CSS, JavaScript |
 
 ## Helping out
 Tips and other Tiny Code Snippets are always welcome! Let me know by either:
