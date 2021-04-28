@@ -11,7 +11,7 @@ div[class*="me-up"] { ... }
 /* attribute begins with */
 div[class^="style"] { ... }
 
-/* attribute end with */
+/* attribute ends with */
 div[class$="nice"] { ... }
 
 /* attribute spaced seperated values */
