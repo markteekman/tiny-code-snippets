@@ -8,6 +8,7 @@ Some Tiny Codes span over HTML, CSS and JavaScript, for those more visual exampl
 | Demo  | Langauges |
 | ------------- | ------------- |
 | [Auto Hiding Sticky Navbar](https://codepen.io/markteekman/pen/JjEwrVp) | HTML, CSS, JavaScript |
+| [Dark Mode Toggle](https://codepen.io/markteekman/pen/BapgYOR) | HTML, CSS, JavaScript |
 | [Input Custom Checkbox](https://codepen.io/markteekman/pen/BapvmBB) | HTML, CSS |
 | [Input Custom Radio Button](https://codepen.io/markteekman/pen/poRqdjR) | HTML, CSS |
 | [Intersection Observers](https://codepen.io/markteekman/pen/oNBMERX) | HTML, CSS, JavaScript |
