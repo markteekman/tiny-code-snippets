@@ -1,6 +1,6 @@
 # Tiny Code
 
-Growing collection of Front-end Code Snippets (HTML, (S)CSS, JavaScript) to use as a reverence for common challenges and solutions. Most are simple to use and handy in a variaty of day to day use cases.
+Growing collection of Front-end Code Snippets (HTML, (S)CSS, JavaScript) to use as a reference for common challenges and solutions. Most are simple to use and handy in a variaty of day to day use cases.
 
 ## Demo's
 Some Tiny Codes span over HTML, CSS and JavaScript, for those more visual examples I created some CodePens:
