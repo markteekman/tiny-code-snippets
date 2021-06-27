@@ -1,0 +1,6 @@
+/* child element of .parent will be centered */
+
+.parent {
+  display: grid;
+  place-items: center;
+}
