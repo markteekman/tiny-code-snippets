@@ -1,0 +1,75 @@
+/* -------------------------------- *
+ |  Global                          |
+ * -------------------------------- */
+
+:root {
+  /* primary colors */
+  --primay-clr-blue: blue;
+  --primay-clr-green: green;
+  --primay-clr-purple: purple;
+
+  /* neutral colors */
+  --neutral-clr-grayblue: hsl(233, 8%, 62%);
+  --neutral-clr-lightgray: hsl(220, 16%, 96%);
+  --neutral-clr-offwhite: hsl(0, 0%, 98%);
+  --neutral-clr-white: hsl(0, 0%, 100%);
+}
+
+h1 { font-weight: 700; }
+h2 { font-weight: 400; }
+h3 { font-weight: 300; }
+
+body {
+  font-size: 18px;
+  font-family: 'Public Sans', sans-serif;
+  background-color: var(--neutral--clr-white);
+}
+
+/* custom selection color */
+::selection {
+  background-color: purple;
+}
+
+/* auto spacing class */
+.content-spacing > * + * {
+  margin-bottom: 1em;
+}
+
+/* remove margin bottom from last-child */
+:where(:last-child) {
+  margin-bottom: 0 !important;
+}
+
+/* better focus outline */
+*:focus {
+  outline: 2px dotted black;
+  outline-width: 2px;
+  outline-style: dotted;
+  outline-color: black;
+  outline-offset: 0;
+  box-shadow: 0 0 0 2px white;
+}
+
+/* -------------------------------- *
+ |  High level                      |
+ * -------------------------------- */
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+/* -------------------------------- *
+ |  Sections                        |
+ * -------------------------------- */
+
+/* -------------------------------- *
+ |  Components                      |
+ * -------------------------------- */
