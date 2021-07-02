@@ -12,6 +12,7 @@ Some Tiny Codes span over HTML, CSS and JavaScript, for those more visual exampl
 | [Input Custom Checkbox](https://codepen.io/markteekman/pen/BapvmBB) | HTML, CSS |
 | [Input Custom Radio Button](https://codepen.io/markteekman/pen/poRqdjR) | HTML, CSS |
 | [Intersection Observers](https://codepen.io/markteekman/pen/oNBMERX) | HTML, CSS, JavaScript |
+| [Starry Sky Animation](https://codepen.io/markteekman/pen/vYmOzRR) | HTML, CSS |
 | [Super Centered Content](https://codepen.io/markteekman/pen/abWoYNN) | HTML, CSS |
 
 ## Helping out
