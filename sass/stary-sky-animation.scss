@@ -1,0 +1,48 @@
+// random 'stars' generator function with box-shadow
+@function multiple-box-shadow ($n) {
+  $value: '#{random(3000)}px #{random(3000)}px #fff';
+
+  @for $i from 1 through $n {
+    $value: '#{$value} , #{random(3000)}px #{random(3000)}px #fff';
+  }
+
+  @return unquote($value);
+}
+
+.galaxy #stars-small,
+.galaxy #stars-small::after {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: multiple-box-shadow(2000);
+  animation: animStar 100s linear infinite;
+  animation-delay: -10s;
+}
+
+.galaxy #stars-medium,
+.galaxy #stars-medium::after {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: multiple-box-shadow(1200);
+  animation: animStar 150s linear infinite;
+  animation-delay: -8s;
+}
+
+.galaxy #stars-large,
+.galaxy #stars-large::after {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: multiple-box-shadow(800);
+  animation: animStar 200s linear infinite;
+  animation-delay: -5s;
+}
+
+@keyframes animStar {
+  from { transform: translateY(-1500); }
+  to { transform: translateY(-3000px); }
+}
