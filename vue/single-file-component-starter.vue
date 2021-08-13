@@ -7,7 +7,8 @@ export default {
   name: ComponentName,
   props: {
     text: {
-      type: String
+      type: String,
+      default: 'Hello World'
     }
   }
 }
