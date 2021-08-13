@@ -3,19 +3,19 @@
 </template>
 
 <script>
-  export default {
-    name: ComponentName,
-    props: {
-      text: {
-        type: String
-      }
+export default {
+  name: ComponentName,
+  props: {
+    text: {
+      type: String
     }
   }
+}
 </script>
 
-<style>
-  p {
-    font-size: 1em;
-    line-height: 1.1em;
-  }
+<style lang="scss">
+p {
+  font-size: 1em;
+  line-height: 1.1em;
+}
 </style>
